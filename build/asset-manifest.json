@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a07ff6eb.css",
+    "main.js": "/static/js/main.6d73d87a.js",
+    "static/media/2022-02-24.png": "/static/media/2022-02-24.a48fe5aad232f4ad59aa.png",
+    "static/media/SoumayaPic.jpg": "/static/media/SoumayaPic.487620df691e69838337.jpg",
+    "index.html": "/index.html",
+    "main.a07ff6eb.css.map": "/static/css/main.a07ff6eb.css.map",
+    "main.6d73d87a.js.map": "/static/js/main.6d73d87a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a07ff6eb.css",
+    "static/js/main.6d73d87a.js"
+  ]
+}
