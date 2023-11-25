@@ -10,7 +10,6 @@ import { LocationOn, Call, Email, CheckCircleOutline, CloudDownload, Monetizatio
 
 const HomePage = () => (
   <div>
-    <div id="home">
       <>
         <Navbar bg="primary" variant="dark">
           <Navbar.Brand href="#home">A.A.S.T Services</Navbar.Brand>
@@ -31,7 +30,6 @@ const HomePage = () => (
             </Navbar.Collapse>
         </Navbar>
       </>
-    </div>
 
 
     <div style={{ backgroundImage: `url(${background})`, backgroundSize: 'cover', height: window.screen.height - 275 }}>
