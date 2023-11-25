@@ -1,0 +1,53 @@
+.toDo {
+  background: #BF5700;
+  color: 'white';
+  display: flex;
+  align-items: center;
+  padding: 1rem 1rem;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+}
+
+.icon-container {
+  margin-left: auto; /* Push the icons to the right, aligning with the right edge */
+}
+
+.input-container {
+  flex: 3;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+  background: #FF5349;
+}
+
+.deleteIcon {
+  padding-left: 20px;
+  margin-left: auto;
+}
+
+.partOne {
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+.partOne .partTwo{
+  width: 100%;
+  border: 1px solid blue;
+}
+
+@media (max-width: 800px) {
+  .toDoWrapper{
+    width: 100%;
+    max-width: 95%;
+  }
+}
+
+.todoform {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
