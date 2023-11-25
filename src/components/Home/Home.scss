@@ -1,11 +1,223 @@
-.landing-main-title{
-  margin-top: 100px;
-  font-size: 7rem;
-  text-align: center;
+.container {
+  background-image: url('../../pictures/2022-02-24.png');
 }
 
-.landing-sub-title{
-  margin-top: 100px;
-  font-size: 3rem;
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 35%;
+  font-size: 500%;
+}
+
+.header2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 35%;
+}
+
+#features {
+  top: 0%;
+}
+
+.bg-primary {
+  --bs-bg-opacity: 1;
+  background-color: #006fba !important;
+}
+
+* {
+  box-sizing: border-box;
+  top: 35%;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+  top: 35%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  top: 35%;
+}
+
+.aproposdenous {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 35%;
+  font: 3335;
+}
+
+.column1 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 400px; /* Should be removed. Only for demonstration */
+}
+
+.column2 {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  height: 400px; /* Should be removed. Only for demonstration */
+}
+
+.image-cropper {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+img {
+  display: inline;
+  margin: 0 auto;
+  height: 50%;
+  width: auto;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+}
+
+#test {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+}
+
+#test2 {
+  display: block;
+  margin: auto;
+  bottom: 6%;
+  position: relative;
+}
+
+.diva {
+  background-color: lightgrey;
+  width: 300px;
+  padding: 0px;
+  margin: 20px;
+  background-image: url('../../pictures/SoumayaPic.jpg');
+  height: 275;
+  width: 200;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testa {
+  padding: 30px;
+}
+
+/**/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column4 {
+  float: left;
+  width: 49.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 90px;
+}
+
+.about-section {
+  padding: 50px;
   text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column4 {
+    width: 100%;
+    display: block;
+  }
+
+  .column2 {
+    width: 100%;
+    display: block;
+    height: 80%;
+  }
+
+  .column {
+    width: 100%;
+  }
+
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 35%;
+    font-size: 250%;
+  }
+
+  #services {
+    height: 1000;
+  }
+}
+
+/**/
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 5px;
+  padding: 40px;
+}
+
+#services {
+  background-color: '#FFFFFF';
+  background-size: 'cover';
+  padding: '10%';
 }
