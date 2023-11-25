@@ -1,6 +1,5 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Container from 'react-bootstrap/Container';
 import { Navbar, Nav } from 'react-bootstrap';
 import background from "../../pictures/2022-02-24.png";
 import './Home.scss';
@@ -15,8 +14,7 @@ const HomePage = () => (
       <>
         <Navbar bg="primary" variant="dark">
           <Navbar.Brand href="#home">A.A.S.T Services</Navbar.Brand>
-          <div style={{ height: 50, width: 160 }}>
-          </div>
+          <img src={cpa} alt="cpa" style={{ width: "25%" }}></img>
           <Navbar.Toggle />
         </Navbar>
 
