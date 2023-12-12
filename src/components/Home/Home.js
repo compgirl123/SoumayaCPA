@@ -13,22 +13,22 @@ const HomePage = () => (
       <>
         <Navbar bg="primary" variant="dark">
           <Navbar.Brand href="#home">A.A.S.T Services</Navbar.Brand>
-          <img src={cpa} alt="cpa" style={{ width: "25%" }}></img>
+          <img src={cpa} alt="cpa" style={{ width: "10%" }}></img>
           <Navbar.Toggle />
         </Navbar>
 
         <Navbar bg="light" expand="lg">
-            <Navbar.Brand href="#home">Soumaya Arraouf, CPA</Navbar.Brand>
+          <Navbar.Brand href="#home">Soumaya Arraouf, CPA</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="me-auto">
-                <Nav.Link href="#home">Acceuil</Nav.Link>
-                <Nav.Link href="#services">Nos Services</Nav.Link>
-                <Nav.Link href="#forms">Formulaires</Nav.Link>
-                <Nav.Link href="#about-section">A propos de nous</Nav.Link>
-              </Nav>
-            </Navbar.Collapse>
-        </Navbar>
+              <Navbar.Collapse id="basic-navbar-nav">
+                <Nav className="me-auto">
+                  <Nav.Link href="#home">Acceuil</Nav.Link>
+                  <Nav.Link href="#services">Nos Services</Nav.Link>
+                  <Nav.Link href="#forms">Formulaires</Nav.Link>
+                  <Nav.Link href="#about-section">A propos de nous</Nav.Link>
+                </Nav>
+              </Navbar.Collapse>
+         </Navbar>
       </>
 
 
