@@ -147,7 +147,7 @@ const HomePage = () => (
         <Call /> {/* Use Call component from Material-UI */}
         Téléphone
       </h4>
-      <p class="title">514-627-3222 <br/> 514-441-3038</p>
+      <p class="title"> 514-627-3222 </p>
 
       <h4 class="title">
         <Email /> {/* Use Email component from Material-UI */}
